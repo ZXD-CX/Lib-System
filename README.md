@@ -16,15 +16,16 @@
 
 ## 项目目录结构
 
+```text
 LibraryManagementSystem/
-├── src/ # 核心源码目录
-│ ├── Library-File.c # 文件存储版本主程序（无数据库依赖）
-│ └── Library-MySQL.c # MySQL 数据库版本主程序
-├── test/ # 学习与测试代码目录
-│ ├── mysql_test.c # MySQL 连接基础测试
-│ ├── mysql_base_test.c # MySQL 基础 SQL 操作测试
-│ └── book_crud_test.c # 图书表 CRUD 功能演示
-└── README.md # 项目说明文档
+├── src/                     # 核心源码目录
+│   ├── Library-File.c       # 文件存储版本主程序（无数据库依赖）
+│   └── Library-MySQL.c      # MySQL 数据库版本主程序
+├── test/                    # 学习与测试代码目录
+│   ├── mysql_test.c         # MySQL 连接基础测试
+│   ├── mysql_base_test.c    # MySQL 基础 SQL 操作测试
+│   └── book_crud_test.c     # 图书表 CRUD 功能演示
+└── README.md                # 项目说明文档
 
 ---
 
